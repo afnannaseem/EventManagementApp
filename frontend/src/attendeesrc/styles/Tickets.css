@@ -1,0 +1,54 @@
+#ticketsSecondDiv{
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    }
+
+    
+    #ticketsUnorderedList{
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 10px;
+    }
+    
+    #ticketsParagraphs{
+        font-size: 1.7rem;
+        margin-top: 25px;    
+    }
+    
+    #ticketsLinks{
+        text-decoration: none;
+    
+    }
+    
+    #ticketsListElements{
+    margin-top: 15px;
+    }
+
+    #ticketsNoBookedTicketsDiv{
+        width:300px;
+        height: 100px;
+        margin-left: 29.5%;
+    }
+
+    #ticketsNoBookedTickets{
+        margin-top: 12px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        font-size: 1.7rem;
+    }
+
+    #ticketsTicketIdDiv{
+        width:500px;
+        height: 260px;
+        margin-left: 15%;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    #ticketsTicketIdDiv:hover{
+        transform: scale(1.04);
+    }

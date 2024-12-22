@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #28a745;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  animation: scaleUp 0.75s ease-in-out;
+}
+.success-icon {
+  font-size: 2rem;
+  color: #fff;
+}
+.text-heading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.text-description {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.link {
+  color: #007bff;
+  text-decoration: underline;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* CSS Classes */
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.failure-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #dc3545; /* Red color for circle background */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  animation: shake 0.5s ease-in-out;
+}
+
+.failure-icon {
+  font-size: 2rem;
+  color: #fff; /* White color for 'X' icon */
+}
+
+.failure-text-heading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.failure-text-description {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.failure-link {
+  color: #007bff; /* Blue color for links */
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+/* CSS for PendingRequest component */
+.pending-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.spinner-container {
+  margin-bottom: 20px;
+}
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left: 8px solid #007bff; /* Blue color for spinner */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.pending-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff; /* Blue color for message */
+}
+
+/* Animation for spinner */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* CSS for SuccessPage component */
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.success-icons {
+  font-size: 5rem;
+  color: #28a745; /* Green color for success icon */
+  margin-bottom: 20px;
+}
+
+.success-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745; /* Green color for success message */
+}
+/*Block user page*/
+.blocked-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.blocked-icon {
+  font-size: 3em;
+  color: red;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.blocked-message {
+ font-size: 1.5rem;
+  font-weight: bold;
+  color: #dc3545;
+  margin: 30px 0;
+}
+
+.support-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+}
+
+.support-button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

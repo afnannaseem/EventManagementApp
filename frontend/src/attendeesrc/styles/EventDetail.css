@@ -1,0 +1,54 @@
+#eventDetailMainDiv {
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 30px;
+  margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#eventDetailMainDiv:hover{
+  transform: scale(1.02);
+}
+
+.eventDetailsParagraphElements {
+  font-size: 1.7rem;
+  margin-top: 25px;
+}
+
+#eventDetailPurchaseStatusParagraph{
+  font-size: 1.4rem;
+}
+
+#eventDetailsPurchaseButtons {
+  margin: 30px;
+}
+
+#eventDetailsFeedbackFormMainDiv {
+  height: 270px;
+  width: 400px;
+  background-color: white;
+  margin-left: 22%;
+  margin-top: 20px;
+}
+
+#eventDetailsFeedbackSubmitButton {
+  margin-top: 15px;
+}
+
+#eventDetailFeedbackStatus {
+  font-size: 1.7rem;
+  margin-top: 25px;
+}
+
+#eventDetailLoadingEventDetails {
+  font-size: 1.7rem;
+  margin-top: 25px;
+}
+
+#myProfileLoadingBookedEvents{
+  font-size: 1.7rem;
+    margin-top: 28px;
+    margin-left: 39%;
+}

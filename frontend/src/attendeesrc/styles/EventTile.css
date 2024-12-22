@@ -1,0 +1,62 @@
+#eventTileMainDiv{
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    background-color: white;
+    border: 4px solid snow;
+    transition: transform 0.2s ease-in-out;
+}
+
+#eventTileMainDiv:hover{
+    transform: scale(1.02);
+}
+
+#eventTileHeaderDiv{
+    background-color: snow;
+    border-bottom: 3px solid #66BFBF;    
+}
+
+#eventTileFooterDiv{
+    background-color: snow;
+    border-top: 3px solid #66BFBF;    
+}
+
+#eventTileBodyDiv{
+font-size: 18px;
+background-color: snow;
+}
+
+@media (max-width: 1260px) {
+    #eventTileMainDiv{
+        font-family: 'Nunito', sans-serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        background-color: white;
+        border: 4px solid snow;
+        transition: transform 0.2s ease-in-out;
+        max-width: 680px;
+    }
+    
+    #eventTileMainDiv:hover{
+        transform: scale(1.02);
+    }
+
+}
+
+@media (max-width: 400px){
+    #eventTileMainDiv{
+        font-family: 'Nunito', sans-serif;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        background-color: white;
+        border: 4px solid snow;
+        transition: transform 0.2s ease-in-out;
+        max-width: 350px;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+    
+    #eventTileMainDiv:hover{
+        transform: scale(1.02);
+    }
+}

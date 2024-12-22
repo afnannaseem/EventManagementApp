@@ -1,0 +1,33 @@
+#profileSecondDiv{
+font-family: 'Nunito', sans-serif;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+background-color: white;
+border-radius: 20px;
+padding-top: 30px;
+margin-top: 20px;
+transition: transform 0.2s ease-in-out;
+}
+
+#profileSecondDiv:hover{
+    transform: scale(1.02);
+}
+
+#profileUnorderedList{
+list-style-type: none;
+padding: 0;
+padding-bottom: 10px;
+}
+
+#profileParagraphs{
+    font-size: 1.7rem;
+    margin-top: 25px;    
+}
+
+#profileLinks{
+    text-decoration: none;
+
+}
+
+#profileListElements{
+margin-top: 15px;
+}

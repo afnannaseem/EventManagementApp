@@ -1,0 +1,44 @@
+#allNotificationsSecondDiv{
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+#allNotificationsNotificationDiv{
+    font-size: 1.5rem;
+    margin-top: 25px;
+    padding-bottom: 20px;    
+}
+
+
+#allNotificationsParagraph{
+margin: 20px;
+transition: transform 0.2s ease-in-out;
+}
+
+#allNotificationsParagraph:hover{
+    transform: scale(1.025);
+}
+
+
+#allNotificationsLinks{
+    text-decoration: none;
+}
+
+#allNotificationsNoticketsDiv{
+    width:300px;
+    height: 100px;
+    margin-left: 29.5%;
+}
+
+#allNotificationsNoTicketsPara{
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 1.7rem;
+}

@@ -1,0 +1,32 @@
+#notificationsSecondDiv{
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    transition: transform 0.2s ease-in-out;
+    }
+    #notificationsSecondDiv:hover{
+        transform: scale(1.02);
+    }
+    
+    #notificationsUnorderedList{
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 10px;
+    }
+    
+    #notificationsParagraphs{
+        font-size: 1.7rem;
+        margin-top: 25px;    
+    }
+    
+    #notificationsLinks{
+        text-decoration: none;
+    
+    }
+    
+    #notificationsListElements{
+    margin-top: 15px;
+    }

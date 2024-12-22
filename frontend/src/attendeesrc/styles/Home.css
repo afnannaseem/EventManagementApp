@@ -1,0 +1,101 @@
+#homeMainDiv{
+    font-family: 'Nunito', sans-serif;
+    background-color: #EAF6F6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-top: 1px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    }
+    
+    #homeSpinnerDiv{
+        margin-top: 17%;
+        margin-left: 20%;
+    }
+    
+    #homeLoadingEvents {
+        font-size: 1.7rem;
+        margin-top: 28px;
+        margin-left: 20%;
+    }
+    
+    #tailHeading{
+        font-size: xx-large;
+        color: black;
+    }
+    
+    
+    #homeSearchDiv{
+        max-height: 450px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        background-color: white;
+        border: 1px solid snow;
+        transition: transform 0.2s ease-in-out;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    #homeSearchDiv:hover{
+        transform: scale(1.03);
+    }
+    
+    #homeSecondDiv{
+        padding-top: 10px;
+        padding-left: 10px;
+        height: 600px;
+        width: 1200px;
+        overflow: auto;
+    }
+    
+    #homeMainSearchHeading{
+        border-bottom: 3px solid #66BFBF;
+    }
+    
+    @media (max-width: 1260px) {
+        #homeSecondDiv{
+            padding-top: 10px;
+            padding-left: 10px;
+            height: 600px;
+            width: 1200px;
+            overflow: auto;
+            margin-left: 170px;
+        }
+        #homeSearchDiv{
+            max-height: 450px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            background-color: white;
+            border: 1px solid snow;
+            transition: transform 0.2s ease-in-out;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+        #homeSearchDiv:hover{
+            transform: scale(1.03);
+        }
+      }
+    
+      @media (min-width: 400px) and (max-width:400px){
+        #homeSecondDiv{
+            padding-top: 10px;
+            padding-left: 10px;
+            height: 600px;
+            width: 1200px;
+            overflow: auto;
+            margin-left: 800px;
+        }
+        #homeSearchDiv{
+            max-height: fit-content;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            background-color: white;
+            border: 1px solid snow;
+            transition: transform 0.2s ease-in-out;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            max-width: 350px;
+        }
+        #homeSearchDiv:hover{
+            transform: scale(1.03);
+        }
+    }

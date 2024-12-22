@@ -1,0 +1,28 @@
+/* HomePage.css */
+.home-page {
+    background-color: #f4e8e0; /* Light peach background */
+    color: #5a3e36; /* Warm brown for text */
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  /* HomePage.css */
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Center grid items horizontally */
+}
+
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .event-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

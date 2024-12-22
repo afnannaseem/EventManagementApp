@@ -1,0 +1,39 @@
+/* EventTile.css */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #e6b8af; /* Warm header color */
+    color: white;
+  }
+  
+  .card-body {
+    background-color: #fdf6f0; /* Lighter body color */
+  }
+  
+  .card-footer {
+    background-color: #e6b8af;
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #a85d4e; /* Deep peach */
+    border-color: #a85d4e;
+  }
+  
+  .btn-primary:hover {
+    background-color: #8f4e41;
+    border-color: #8f4e41;
+  }
+  
+#eventTileMainDiv{
+    transition: transform 0.2s ease-in-out;
+}
+
+#eventTileMainDiv :hover{
+    transform: scale(1.02);
+}

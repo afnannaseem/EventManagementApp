@@ -1,0 +1,54 @@
+#ticketDetailMainDiv{
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#ticketDetailMainDiv:hover{
+    transform: scale(1.02);
+}
+
+#ticketDetailSecondDiv{
+font-size: 1.4rem;
+margin-top: 25px;
+}
+
+#ticketDetailErrorPargraph{
+font-size: 1.4rem;
+}
+
+#ticketDetailCancelTicketButton{
+    margin-top: 15px;
+}
+
+#ticketDetailUpdateTicketButton{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#ticketDetailUpdateFormDiv{
+    margin-top: 15px;
+    width: 400px;
+    margin-left: 22%;
+    
+}
+
+#ticketDetailUpdateFormSubmitButton{
+margin-top: 10px;
+}
+
+#ticketDetailUpdateFormCloseButton{
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+#ticketDetailLoading{
+font-size: 1.7rem;
+margin-top: 25px;
+
+}
